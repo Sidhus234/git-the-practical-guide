@@ -17,8 +17,20 @@ Git is local and hence we can't collaborate with others. Github is where compani
 
 <h2><a id="index">Index</a></h2>
 
+[1. Command Line](#commandline)
 
-<h2><a id=""></a></h2>
+
+<h2><a id="commandline">1. Command Line</a></h2>
+
+Some of the key things that can be done with command prompt (but not with GUI) are:
+<ul>
+<li>Start servers (web development)</li>
+<li>Download + Install Tools</li>
+<li>Run Code</li>
+<li>Execute Files</li>
+<li>Working with Git</li>
+</ul>
+
 
 
 
