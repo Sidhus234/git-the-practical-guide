@@ -23,6 +23,8 @@ Git is local and hence we can't collaborate with others. Github is where compani
 
 [3. Git Version Management](#versionmanagement)
 
+[4. Branches](#branches)
+
 
 <h2><a id="commandline">1. Command Line</a></h2>
 
@@ -62,17 +64,17 @@ Windows command prompt details can be found [here](https://docs.microsoft.com/en
 
 <h2><a id="versionmanagement">3. Git Version Management</a></h2>
 
-By default git saves all changes made to the main branch. 
+By default git saves all changes made to the main branch. .git (hidden folder) is the repository. There are two areas: Staging Area (Index File) and Commits (Objects Folder). Staging area is a draft area which contains the changes to repositary. GIT means "tracking changes - not storing files again and again!". It only track the changes in the file. 
 
 <img src="./Images/01_version_management.png" alt="Version Management"/>
 
+<img src="./Images/02_git_under_the_hood.png" alt="Git under the Hood"/>
 
 
+<h2><a id="branches">4. Branches</a></h2>
+Initially all the files are stores in the 'main' branch. Its the core folder that contains the running code. Let's say we want to add new functionality. If we keep working on the main branch, it might end up breaking the working code, if the new added code is not working as intended. Hence, we do branching. With branching, we can create a exact copy and implement new functionality in that. Once3 tested, the new features can be merged with the "main" branch. This allows developers to work on independent features and then bring together all the work into the "main" branch.
 
-<h2><a id=""></a></h2>
-
-
-
+<img src="./Images/03_branches_and_commit.png" alt="Branches and Commit"/>
 
 
 <h2><a id=""></a></h2>
