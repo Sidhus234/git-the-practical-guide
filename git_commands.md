@@ -9,11 +9,11 @@
 <li><i>git log</i>: Provides log of the repo. Press 'q' and 'Enter' key to exit it.</li>
 <li><i>git checkout {commit id}</i>: Will provide the repo as of before that commit.</li>
 <li><i>git checkout {branch}</i>: Will bring back to the end of that branch.</li>
-<li><i></i>: </li>
-<li><i></i>: </li>
-<li><i></i>: </li>
-<li><i></i>: </li>
-<li><i></i>: </li>
+<li><i>git branch</i>: Lists out all the branches.</li>
+<li><i>git branch {name of new branch}</i>: Creates a new branch.</li>
+<li><i>git checkout {branch}</i>: Switches to the branch.</li>
+<li><i>git checkout -b {branchname}</i>: Creates a new branch {branchname} and moves to the head of the new branch.</li>
+<li><i>git merge {branchname}</i>: We must be present in branch in which we want to merge changes for this to work. This will merge changes from {branchname} to current branch.</li>
 <li><i></i>: </li>
 <li><i></i>: </li>
 <li><i></i>: </li>
