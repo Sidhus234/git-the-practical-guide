@@ -14,8 +14,8 @@
 <li><i>git checkout {branch}</i>: Switches to the branch.</li>
 <li><i>git checkout -b {branchname}</i>: Creates a new branch {branchname} and moves to the head of the new branch.</li>
 <li><i>git merge {branchname}</i>: We must be present in branch in which we want to merge changes for this to work. This will merge changes from {branchname} to current branch.</li>
-<li><i></i>: </li>
-<li><i></i>: </li>
+<li><i>git switch {branchname}</i>: Switch is used explicitly for working with branches. Checkout command works with branches and commits as well. Switches to {branchname}.</li>
+<li><i>git switch -c {branchname}</i>: Creates a new branch with {branchname}.</li>
 <li><i></i>: </li>
 <li><i></i>: </li>
 <li><i></i>: </li>
