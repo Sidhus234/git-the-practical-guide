@@ -21,6 +21,8 @@ Git is local and hence we can't collaborate with others. Github is where compani
 
 [2. Windows Command Prompt Basics](#windowscommandprompt)
 
+[3. Git Version Management](#versionmanagement)
+
 
 <h2><a id="commandline">1. Command Line</a></h2>
 
@@ -58,9 +60,11 @@ Windows command prompt details can be found [here](https://docs.microsoft.com/en
 </ol>
 
 
+<h2><a id="versionmanagement">3. Git Version Management</a></h2>
 
+By default git saves all changes made to the main branch. 
 
-<h2><a id=""></a></h2>
+<img src="./Images/01_version_management.png" alt="Version Management"/>
 
 
 
