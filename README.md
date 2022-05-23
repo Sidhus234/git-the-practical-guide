@@ -25,6 +25,8 @@ Git is local and hence we can't collaborate with others. Github is where compani
 
 [4. Branches](#branches)
 
+[5. Head](#head) 
+
 
 <h2><a id="commandline">1. Command Line</a></h2>
 
@@ -77,5 +79,28 @@ Initially all the files are stores in the 'main' branch. Its the core folder tha
 <img src="./Images/03_branches_and_commit.png" alt="Branches and Commit"/>
 
 
-<h2><a id=""></a></h2>
- 
+<h2><a id="head">5. Head</a></h2>
+Head points to the last commit. When we say checkout a certain commit, then the head would be reffered as detached head as this is not the head of the branch, but head at the time of that commit.
+
+<img src="./Images/04_head.png" alt="Head"/>
+
+<img src="./Images/05_detached_head.png" alt="Detached Head"/>
+
+
+
+ <h2><a id=""></a></h2>
+
+
+
+
+
+ <h2><a id=""></a></h2>
+
+
+
+
+
+ <h2><a id=""></a></h2>
+
+
+ <h2><a id=""></a></h2>
