@@ -16,6 +16,14 @@
 <li><i>git merge {branchname}</i>: We must be present in branch in which we want to merge changes for this to work. This will merge changes from {branchname} to current branch.</li>
 <li><i>git switch {branchname}</i>: Switch is used explicitly for working with branches. Checkout command works with branches and commits as well. Switches to {branchname}.</li>
 <li><i>git switch -c {branchname}</i>: Creates a new branch with {branchname}.</li>
+<li><i>git ls-files</i>: Gives list of files in the repo.</li>
+<li><i>git rm {filename}</i>: Removes the file. Commit the change after this command.</li>
+<li><i>git checkout {filename or .} </i>: Gets rid of uncommited changes in the current branch.</li>
+<li><i>git restore {filename or .}</i>: Gets rid of all the uncommited changes in the file or current branch.</li>
+<li><i>git clean -dn</i>: Will list out all the files that would be deleted (Which are not commited).</li>
+<li><i>git clean -df</i>: Will delete the files. Always first run "git clean -dn" to know which files will be deleted.</li>
+<li><i>git reset {filename}</i>: Will move the latest commited data of {filename} to staged area. "git checkout {filename}" will delete those changes. </li>
+<li><i>git restore --staged {filename}</i>: Will remove the last staged changes in the {filename}.</li>
 <li><i></i>: </li>
 <li><i></i>: </li>
 <li><i></i>: </li>
