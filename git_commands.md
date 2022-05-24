@@ -24,9 +24,9 @@
 <li><i>git clean -df</i>: Will delete the files. Always first run "git clean -dn" to know which files will be deleted.</li>
 <li><i>git reset {filename}</i>: Will move the latest commited data of {filename} to staged area. "git checkout {filename}" will delete those changes. </li>
 <li><i>git restore --staged {filename}</i>: Will remove the last staged changes in the {filename}.</li>
-<li><i></i>: </li>
-<li><i></i>: </li>
-<li><i></i>: </li>
+<li><i>git reset --soft HEAD~1</i>: Resets HEAD of the current branch by 1 commit. This wont delete the changes. The changes would be avaiable in staging area to be commited again as we did a SOFT reset.</li>
+<li><i>git reset HEAD~1</i>: This will take one step back and delete the changes. The changes would now be available in working directory.</li>
+<li><i>git reset --hard HEAD~1</i>: This will remove changes from working directory, and staging area. </li>
 <li><i></i>: </li>
 <li><i></i>: </li>
 <li><i></i>: </li>
