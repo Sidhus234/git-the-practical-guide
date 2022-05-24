@@ -27,7 +27,7 @@
 <li><i>git reset --soft HEAD~1</i>: Resets HEAD of the current branch by 1 commit. This wont delete the changes. The changes would be avaiable in staging area to be commited again as we did a SOFT reset.</li>
 <li><i>git reset HEAD~1</i>: This will take one step back and delete the changes. The changes would now be available in working directory.</li>
 <li><i>git reset --hard HEAD~1</i>: This will remove changes from working directory, and staging area. </li>
-<li><i></i>: </li>
-<li><i></i>: </li>
+<li><i>git branch -D {branchname}</i>: Will delete the branch no matter whether it was merged or not.</li>
+<li><i>git branch -d {branchname}</i>: Will delete the branch if it wasn't merged.</li>
 <li><i></i>: </li>
 </ol>
