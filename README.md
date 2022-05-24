@@ -1,5 +1,9 @@
-# git-the-practical-guide
+# Git - Practial Guide
 <p>Git is all about control and tracking of code changes over time. It is highly efficient version management system. Some of the major pros of the git are:</p>
+
+[Git commands reference](https://git-scm.com/docs)
+
+[Official Git Website](https://git-scm.com/)
 
 <ol>
 <li>Version Control System</li>
@@ -91,7 +95,9 @@ Head points to the last commit. When we say checkout a certain commit, then the 
 
 <h2><a id="gitignore">6. .gitignore</a></h2>
 
-Cases there are files which we want to have in our project but don't want to track the versions. Here .gitignore comes in handy. It is created manually in the git repo. *.log file implies we git should ignore all files with .log extension. ALl files that needs to be ignored are added to .gitignore file.
+Cases there are files which we want to have in our project but don't want to track the versions. Here .gitignore comes in handy. It is created manually in the git repo. *.log file implies we git should ignore all files with .log extension. ALl files that needs to be ignored are added to .gitignore file. Similarly if we want to include some file which would have been skipped due to global *.log, we add !{filename}. 
+
+Similarly to ignore the whole folder add {folder_name}/* to the .gitignore file. This will ignore all the files in the folder.
 
 
 
