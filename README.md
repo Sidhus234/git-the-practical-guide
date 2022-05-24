@@ -27,6 +27,8 @@ Git is local and hence we can't collaborate with others. Github is where compani
 
 [5. Head](#head) 
 
+[6. .gitignore](#gitignore)
+
 
 <h2><a id="commandline">1. Command Line</a></h2>
 
@@ -87,20 +89,20 @@ Head points to the last commit. When we say checkout a certain commit, then the 
 <img src="./Images/05_detached_head.png" alt="Detached Head"/>
 
 
+<h2><a id="gitignore">6. .gitignore</a></h2>
 
- <h2><a id=""></a></h2>
-
-
-
-
-
- <h2><a id=""></a></h2>
+Cases there are files which we want to have in our project but don't want to track the versions. Here .gitignore comes in handy. It is created manually in the git repo. *.log file implies we git should ignore all files with .log extension. ALl files that needs to be ignored are added to .gitignore file.
 
 
 
 
+<h2><a id=""></a></h2>
 
- <h2><a id=""></a></h2>
 
 
- <h2><a id=""></a></h2>
+
+
+<h2><a id=""></a></h2>
+
+
+<h2><a id=""></a></h2>
