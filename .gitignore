@@ -1,2 +1,3 @@
 test.log
 *.log
+!test2.log
