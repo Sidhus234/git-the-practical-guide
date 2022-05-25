@@ -39,12 +39,12 @@
 <li><i>git reset --hard {hash copied from git reflog}</i>: From git reflog command copy the has to indicate upto which point we want to recover our file. Then we can use git reset --hard {has} to recover it.</li>
 <li><i>git merge --no -ff {branchname}</i>: Merge with main branch using non fast forward merge.</li>
 <li><i>git rebase</i>: Used to rebase two branches.</li>
-<li><i></i>: </li>
-<li><i></i>: </li>
-<li><i></i>: </li>
-<li><i></i>: </li>
-<li><i></i>: </li>
-<li><i></i>: </li>
+<li><i>git-cherry-pick {hash of commit}</i>: Will just commit the cherry picked commit from sub-branch to main branch.</li>
+<li><i>git tag</i>: Lists out the tags used in the project.</li>
+<li><i>git tag {tag for example 1.0} {has of commit that we want to tag}</i>: This is a light weight tag.</li>
+<li><i>git show {tag name}</i>: Will show the commits with that tag.</li>
+<li><i>git tag -d {tag name}</i>: Will delete the tag.</li>
+<li><i>git tag -a {tag name} -m {tag message}</i>: Creates a annotated tag and also a message.</li>
 <li><i></i>: </li>
 <li><i></i>: </li>
 <li><i></i>: </li>

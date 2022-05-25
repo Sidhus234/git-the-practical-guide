@@ -41,6 +41,12 @@ Git is local and hence we can't collaborate with others. Github is where compani
 
 [10. Rebase](#gitrebase)
 
+[11. Handling Merge Conflicts](#mergeconflicts)
+
+[12. Merge - Rebase - Cherry Picking](#mergerebasecherrypick)
+
+[13. Git Tags](#gittags)
+
 <h2><a id="commandline">1. Command Line</a></h2>
 
 Some of the key things that can be done with command prompt (but not with GUI) are:
@@ -158,16 +164,28 @@ Remember: Rebasing re-writes code history! Hence should not be used commonly.
 <img src="./Images/09_rebase.png" alt="Rebase"/>
 
 
+<h2><a id="mergeconflicts">11. Handling Merge Conflicts</a></h2>
+In real life, when we try to merge, there could be conflicts. This can happen when two different people work on same file. In this scenario, it always better to view the difference between conflicts and resolve this.
+
+<h2><a id="mergerebasecherrypick">12. Merge - Rebase - Cherry Picking</a></h2>
+Cherry picking adds a specific commit to branch (HEAD). This also copes commit with new ids. Say we have multiple commits And we want to just merge one commit changes to the main branch. git-cherry-pick {hash of commit} run while being in main branch.
+
+<img src="./Images/10_merge_rebase_cherrypick.png" alt="Rebase"/>
+
+<h2><a id="gittags">13. Git Tags</a></h2>
+Tags are used to differenciate between important stages in our code history. 
+<li><b>Light Weight Tags</b>: is a pointer towards a commit in the branch. Like a branch itself.</li>
+<li><b>Annotated Tags</b>: is a full object in git and contains information like email id of person who created the tag.</li>
+
+Tags can also be used to move to certain commit or view that commit by just referring to the tag (and no need to copy paste the hash of the commit).
+
 <h2><a id=""></a></h2>
 
 
 
 
 
-
 <h2><a id=""></a></h2>
-
-
 
 
 
