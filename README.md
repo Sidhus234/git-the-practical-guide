@@ -128,7 +128,7 @@ Saves changes made in last 30 days. Hence, in case we deleted something by mista
 
 <h2><a id="combiningbranches">9. Combining Main and Feature Branches</a></h2>
 
-There are two different types of merges in git:
+There are two [different types of merges](https://git-scm.com/docs/merge-strategies) in git:
 <ol>
 <li><b>Fast-Forward Merge</b>: It only works if there has been no commit in the main branch after we started working on the feature branch. In this case, the git will simply move the HEAD to the feature branch end but doesnot create commit.</li>
 <li><b>Non Fast-Forward Merge</b>: <ol>
@@ -165,7 +165,7 @@ Remember: Rebasing re-writes code history! Hence should not be used commonly.
 
 
 <h2><a id="mergeconflicts">11. Handling Merge Conflicts</a></h2>
-In real life, when we try to merge, there could be conflicts. This can happen when two different people work on same file. In this scenario, it always better to view the difference between conflicts and resolve this.
+In real life, when we try to merge, there could be conflicts. This can happen when two different people work on same file. In this scenario, it always better to view the difference between conflicts and resolve this. More infor can be found [here](https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging#_advanced_merging)
 
 <h2><a id="mergerebasecherrypick">12. Merge - Rebase - Cherry Picking</a></h2>
 Cherry picking adds a specific commit to branch (HEAD). This also copes commit with new ids. Say we have multiple commits And we want to just merge one commit changes to the main branch. git-cherry-pick {hash of commit} run while being in main branch.
