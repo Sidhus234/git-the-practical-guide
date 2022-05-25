@@ -29,5 +29,23 @@
 <li><i>git reset --hard HEAD~1</i>: This will remove changes from working directory, and staging area. </li>
 <li><i>git branch -D {branchname}</i>: Will delete the branch no matter whether it was merged or not.</li>
 <li><i>git branch -d {branchname}</i>: Will delete the branch if it wasn't merged.</li>
+<li><i>git stash</i>: Saves the current work and moves our project/repo to last commit.</li>
+<li><i>git stash apply</i>: Brings back our saved changes (stashed changes) and we can now commit them.</li>
+<li><i>git stash list</i>: Lists out all the stashes.</li>
+<li><i>git stash apply {number}</i>: Go to certain version of the stash.</li>
+<li><i>git stash push -m "{Message}"</i>: This will stash with a message.</li>
+<li><i>git stash pop {number}</i>: Makes the stashed changes available for adding to working director of repo. This will also delete the stash from stash list. Git stash apply will also do similar thing, but the changes would also remain back in stash.</li>
+<li><i>git reflog</i>: Lists all the changes that happened in the repo in last 30 days.</li>
+<li><i>git reset --hard {hash copied from git reflog}</i>: From git reflog command copy the has to indicate upto which point we want to recover our file. Then we can use git reset --hard {has} to recover it.</li>
+<li><i></i>: </li>
+<li><i></i>: </li>
+<li><i></i>: </li>
+<li><i></i>: </li>
+<li><i></i>: </li>
+<li><i></i>: </li>
+<li><i></i>: </li>
+<li><i></i>: </li>
+<li><i></i>: </li>
+<li><i></i>: </li>
 <li><i></i>: </li>
 </ol>
