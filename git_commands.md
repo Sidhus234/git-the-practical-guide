@@ -37,7 +37,7 @@
 <li><i>git stash pop {number}</i>: Makes the stashed changes available for adding to working director of repo. This will also delete the stash from stash list. Git stash apply will also do similar thing, but the changes would also remain back in stash.</li>
 <li><i>git reflog</i>: Lists all the changes that happened in the repo in last 30 days.</li>
 <li><i>git reset --hard {hash copied from git reflog}</i>: From git reflog command copy the has to indicate upto which point we want to recover our file. Then we can use git reset --hard {has} to recover it.</li>
-<li><i></i>: </li>
+<li><i>git merge --no -ff {branchname}</i>: Merge with main branch using non fast forward merge.</li>
 <li><i></i>: </li>
 <li><i></i>: </li>
 <li><i></i>: </li>

@@ -124,7 +124,7 @@ There are two different types of merges in git:
 <ol>
 <li><b>Fast-Forward Merge</b>: It only works if there has been no commit in the master branch after we started working on the feature branch. In this case, the git will simply move the HEAD to the feature branch end but doesnot create commit.</li>
 <li><b>Non Fast-Forward Merge</b>: <ol>
-<li><b>Recursive Merge</b>: </li>
+<li><b>Recursive Merge</b>: Here we additional commits in both master and feature branch after feature branch was created. Additional merge commit is created in master branch. Recursive merge is applied by default if two branches being merged have seen changes after they were divided for development.</li>
 <li><b>Octopus Merge</b>: </li>
 <li><b>Ours Merge</b>: </li>
 <li><b>Subtree Merge</b>: </li>
@@ -136,7 +136,7 @@ There are two different types of merges in git:
 
 <img src="./Images/07_fast_forward_merge.png" alt="Fast Forward Merge"/>
 
-
+<img src="./Images/08_recursive_merge.png" alt="Recursive Merge"/>
 
 
 <h2><a id=""></a></h2>
