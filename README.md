@@ -37,7 +37,9 @@ Git is local and hence we can't collaborate with others. Github is where compani
 
 [8. Git Reflog](#gitreflog)
 
-[9. Combining Master and Feature Branches](#combiningbranches)
+[9. Combining Main and Feature Branches](#combiningbranches)
+
+[10. Rebase](#gitrebase)
 
 <h2><a id="commandline">1. Command Line</a></h2>
 
@@ -118,13 +120,13 @@ Saves changes made in last 30 days. Hence, in case we deleted something by mista
 </ul>
 
 
-<h2><a id="combiningbranches">9. Combining Master and Feature Branches</a></h2>
+<h2><a id="combiningbranches">9. Combining Main and Feature Branches</a></h2>
 
 There are two different types of merges in git:
 <ol>
-<li><b>Fast-Forward Merge</b>: It only works if there has been no commit in the master branch after we started working on the feature branch. In this case, the git will simply move the HEAD to the feature branch end but doesnot create commit.</li>
+<li><b>Fast-Forward Merge</b>: It only works if there has been no commit in the main branch after we started working on the feature branch. In this case, the git will simply move the HEAD to the feature branch end but doesnot create commit.</li>
 <li><b>Non Fast-Forward Merge</b>: <ol>
-<li><b>Recursive Merge</b>: Here we additional commits in both master and feature branch after feature branch was created. Additional merge commit is created in master branch. Recursive merge is applied by default if two branches being merged have seen changes after they were divided for development.</li>
+<li><b>Recursive Merge</b>: Here we additional commits in both main and feature branch after feature branch was created. Additional merge commit is created in main branch. Recursive merge is applied by default if two branches being merged have seen changes after they were divided for development.</li>
 <li><b>Octopus Merge</b>: </li>
 <li><b>Ours Merge</b>: </li>
 <li><b>Subtree Merge</b>: </li>
@@ -139,11 +141,21 @@ There are two different types of merges in git:
 <img src="./Images/08_recursive_merge.png" alt="Recursive Merge"/>
 
 
-<h2><a id=""></a></h2>
+<h2><a id="gitrebase">10. Rebase</a></h2>
 
+This is done to move changes made in main branch to feature branch. Say we had main branch with commits m1 and m2. We created a new branch ("feature"). In that we had commits f1 and f2. At same time, we added a commit m3 to main. Rebase will move the m3 commit to feature branch, before f1 and f2 commit. Then we merge them together (fast forward merge). Rebase does not move commits. It creates new commits. Never rebase commits outside your repository. Rebase is used when:
 
+<ol>
+<li>New commits in main branch while working in feature branch.</li>
+<li>Feature relies on additional commits in main branch.</li>
+<li>Feature is finished - Implementation into main without merge commit.</li>
+<li>Rebase main into feature branch.</li>
+<li>Rebase main into feature + (fast-forward) merge feature into main.</li>
+</ol>
 
+Remember: Rebasing re-writes code history! Hence should not be used commonly.
 
+<img src="./Images/09_rebase.png" alt="Rebase"/>
 
 
 <h2><a id=""></a></h2>

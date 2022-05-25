@@ -38,7 +38,7 @@
 <li><i>git reflog</i>: Lists all the changes that happened in the repo in last 30 days.</li>
 <li><i>git reset --hard {hash copied from git reflog}</i>: From git reflog command copy the has to indicate upto which point we want to recover our file. Then we can use git reset --hard {has} to recover it.</li>
 <li><i>git merge --no -ff {branchname}</i>: Merge with main branch using non fast forward merge.</li>
-<li><i></i>: </li>
+<li><i>git rebase</i>: Used to rebase two branches.</li>
 <li><i></i>: </li>
 <li><i></i>: </li>
 <li><i></i>: </li>
