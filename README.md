@@ -33,6 +33,11 @@ Git is local and hence we can't collaborate with others. Github is where compani
 
 [6. .gitignore](#gitignore)
 
+[7. Git Stash](#gitstash)
+
+[8. Git Reflog](#gitreflog)
+
+[9. Combining Master and Feature Branches](#combiningbranches)
 
 <h2><a id="commandline">1. Command Line</a></h2>
 
@@ -100,6 +105,38 @@ Cases there are files which we want to have in our project but don't want to tra
 Similarly to ignore the whole folder add {folder_name}/* to the .gitignore file. This will ignore all the files in the folder.
 
 
+<h2><a id="gitstash">7. Git Stash</a></h2>
+Stash - save uncommited and unsaved changes. Say you are working on a feature and the code is not yet complete. We could either commit the incomplete code or use git stash to save it. If we commit, we create a dirty project flow with lot of incomplete commits. Git stash however will help us save the code and not commit it right away. Once we run git stash command, our project status will go back to last commit. To get back our saved changes run the command (git stash apply). This will bring up all the saved changes back in our repo to work.
+
+
+<h2><a id="gitreflog">8. Git Reflog</a></h2>
+Saves changes made in last 30 days. Hence, in case we deleted something by mistake, we can recover it. It can also help recover the deleted branches. git reflog command lists out all the changes that were made in last 30 days, with a hash for each. To recover a branch:
+
+<ul>
+<ol>git checkout {hash copied from git reflog command}. This will create a detached head.</ol>
+<ol>git switch -c {branchname}. Creates a new branchname with branchname and adds the detached head to it.</ol>
+</ul>
+
+
+<h2><a id="combiningbranches">9. Combining Master and Feature Branches</a></h2>
+
+There are two different types of merges in git:
+<ol>
+<li><b>Fast-Forward Merge</b>: It only works if there has been no commit in the master branch after we started working on the feature branch. In this case, the git will simply move the HEAD to the feature branch end but doesnot create commit.</li>
+<li><b>Non Fast-Forward Merge</b>: <ol>
+<li><b>Recursive Merge</b>: </li>
+<li><b>Octopus Merge</b>: </li>
+<li><b>Ours Merge</b>: </li>
+<li><b>Subtree Merge</b>: </li>
+</ol></li>
+</ol>
+
+
+<img src="./Images/06_combining_branches.png" alt="Combining Branches"/>
+
+<img src="./Images/07_fast_forward_merge.png" alt="Fast Forward Merge"/>
+
+
 
 
 <h2><a id=""></a></h2>
@@ -108,7 +145,19 @@ Similarly to ignore the whole folder add {folder_name}/* to the .gitignore file.
 
 
 
+
 <h2><a id=""></a></h2>
+
+
+
+
+
+
+<h2><a id=""></a></h2>
+
+
+
+
 
 
 <h2><a id=""></a></h2>
