@@ -205,6 +205,11 @@ Types of branches:
 
 <img src="./Images/13_connecting_branches.png" alt="Connecting Branches"/>
 
+<h3>Clone a Repository</h3>
+
+<img src="./Images/14_connecting_to_remote_empty_repo.png" alt="Connecting Branches"/>
+
+
 <h2><a id=""></a></h2>
 
 

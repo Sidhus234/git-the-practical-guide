@@ -51,12 +51,12 @@
 <li><i>git ls-remote</i>: Lists out all the branches (both local and remote)</li>
 <li><i>git fetch</i>: Just pulls the additional information from remote to local</li>
 <li><i>git pull</i>: Fetches and merge the changes between remote and local repo (specific branch - mostly main)</li>
-<li><i></i>: </li>
-<li><i></i>: </li>
-<li><i></i>: </li>
-<li><i></i>: </li>
-<li><i></i>: </li>
-<li><i></i>: </li>
+<li><i>git clone {https url}</i>: Clones the remote repo to local repo.</li>
+<li><i>git push -u origin {branchname}</i>: Creates a remote tracking branch and ensures commit is pushed to the said branch. We can then use git push/git pull directly.</li>
+<li><i>git branch -vv</i>: Lists full details of the branches.</li>
+<li><i>git branch --delete -remotes origin/{branchname}</i>: This will delete the remote branch (but only locally).</li>
+<li><i>git push origin --delete {branchname}</i>: This will delete the branch on Github.</li>
+<li><i>git branch -r</i>: Lists out all the remote branches.</li>
 <li><i></i>: </li>
 <li><i></i>: </li>
 <li><i></i>: </li>
