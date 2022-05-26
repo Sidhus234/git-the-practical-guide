@@ -47,6 +47,8 @@ Git is local and hence we can't collaborate with others. Github is where compani
 
 [13. Git Tags](#gittags)
 
+[14. Github Basics](#githubbasics)
+
 <h2><a id="commandline">1. Command Line</a></h2>
 
 Some of the key things that can be done with command prompt (but not with GUI) are:
@@ -179,11 +181,29 @@ Tags are used to differenciate between important stages in our code history.
 
 Tags can also be used to move to certain commit or view that commit by just referring to the tag (and no need to copy paste the hash of the commit).
 
-<h2><a id=""></a></h2>
+<h2><a id="githubbasics">14. Github Basics</a></h2>
+Personal Access Token: Settings -> Developer Settings -> Personal Access Token -> Copy this token to allow pushing our local repo to remote repo. Skip the admin part and allow the token to access everything.
 
+Remote Tracking Branch is read-only copy of the Remote Branch. Local Branch sits out in PC, Remote Branch in Cloud (hosting environment) and Remote Tracking Branch is a read only copy of Remote Branch on PC. Remote Tracking Branch is labelled as remotes/origin/main.
 
+Types of branches:
 
+<ol>
+<li><b>Local Branch</b>: Branch on your machine only.</li>
+<li><b>Remote Branch</b>: Branch in remote location (usually hosting provider).</li>
+<li><b>Tracking Branch</b>: <ol>
+<li><b>Remote Tracking Branch</b>: Local copy of remote branch (not to be edited). Commands available are "git fetch".</li>
+<li><b>Local Tracking Branch</b>: Local reference to remote tracking branch (to be edited). Commands available are "git push" and "git pull".</li>
+</ol></li>
+</ol>
 
+<img src="./Images/11_remotes_tracking_branch.png" alt="Remote Tracking Branch"/>
+
+<img src="./Images/12_branch_types.png" alt="Branch Types"/>
+
+<h3>Local and Remote Branches are Connected as:</h3>
+
+<img src="./Images/13_connecting_branches.png" alt="Connecting Branches"/>
 
 <h2><a id=""></a></h2>
 

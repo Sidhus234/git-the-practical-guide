@@ -45,6 +45,18 @@
 <li><i>git show {tag name}</i>: Will show the commits with that tag.</li>
 <li><i>git tag -d {tag name}</i>: Will delete the tag.</li>
 <li><i>git tag -a {tag name} -m {tag message}</i>: Creates a annotated tag and also a message.</li>
+<li><i>git remote add origin url</i>: To push local git repository to Github.</li>
+<li><i>git push</i>: To push local data to Github</li>
+<li><i>git pull</i>: To pull Github data to local repository.</li>
+<li><i>git ls-remote</i>: Lists out all the branches (both local and remote)</li>
+<li><i>git fetch</i>: Just pulls the additional information from remote to local</li>
+<li><i>git pull</i>: Fetches and merge the changes between remote and local repo (specific branch - mostly main)</li>
+<li><i></i>: </li>
+<li><i></i>: </li>
+<li><i></i>: </li>
+<li><i></i>: </li>
+<li><i></i>: </li>
+<li><i></i>: </li>
 <li><i></i>: </li>
 <li><i></i>: </li>
 <li><i></i>: </li>
