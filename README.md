@@ -22,31 +22,18 @@ Git is local and hence we can't collaborate with others. Github is where compani
 <h2><a id="index">Index</a></h2>
 
 [1. Command Line](#commandline)
-
 [2. Windows Command Prompt Basics](#windowscommandprompt)
-
 [3. Git Version Management](#versionmanagement)
-
 [4. Branches](#branches)
-
 [5. Head](#head) 
-
 [6. .gitignore](#gitignore)
-
 [7. Git Stash](#gitstash)
-
 [8. Git Reflog](#gitreflog)
-
 [9. Combining Main and Feature Branches](#combiningbranches)
-
 [10. Rebase](#gitrebase)
-
 [11. Handling Merge Conflicts](#mergeconflicts)
-
 [12. Merge - Rebase - Cherry Picking](#mergerebasecherrypick)
-
 [13. Git Tags](#gittags)
-
 [14. Github Basics](#githubbasics)
 
 <h2><a id="commandline">1. Command Line</a></h2>
@@ -186,6 +173,7 @@ Personal Access Token: Settings -> Developer Settings -> Personal Access Token -
 
 Remote Tracking Branch is read-only copy of the Remote Branch. Local Branch sits out in PC, Remote Branch in Cloud (hosting environment) and Remote Tracking Branch is a read only copy of Remote Branch on PC. Remote Tracking Branch is labelled as remotes/origin/main.
 
+
 Types of branches:
 
 <ol>
@@ -197,21 +185,25 @@ Types of branches:
 </ol></li>
 </ol>
 
+[14.1 Local and Remote Branches are Connected as:](#141)
+[14.2 Clone a Repository](#142)
+[14.3 Github Security](#143)
+
 <img src="./Images/11_remotes_tracking_branch.png" alt="Remote Tracking Branch"/>
 
 <img src="./Images/12_branch_types.png" alt="Branch Types"/>
 
-<h3>Local and Remote Branches are Connected as:</h3>
+<h3><a id="141">14.1 Local and Remote Branches are Connected as:</a></h3>
 
 <img src="./Images/13_connecting_branches.png" alt="Connecting Branches"/>
 
-<h3>Clone a Repository</h3>
+<h3><a id="142">14.2 Clone a Repository</a></h3>
 
 <img src="./Images/14_connecting_to_remote_empty_repo.png" alt="Connecting Branches"/>
 
+<h3><a id="143">14.3 Github Security</a></h3>
 
-<h2><a id=""></a></h2>
-
+<img src="./Images/15_security.png" alt="Github Security"/>
 
 
 
