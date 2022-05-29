@@ -247,6 +247,16 @@ Fork works like this. Lets say there is a public repo (User A) on Github. We (Us
 
 <img src="./Images/17_fork.png" alt="Github Fork"/>
 
+To fork a repository, just go to a public repository and click on fork. Select the account and within few seconds, the repository should be forked. To merge the changes made in forked repo to the original repo,
+
+<ol>
+<li>Once we have pushed the changes to our repo (forked from other user).</li>
+<li>Click on create pull request, and select the branches. If the merge is allowed, Github will show "Able to merge" option.</li>
+<li>Add a detailed message, and click on "Create Pull Request".</li>
+<li>This will send message to owner of repo. They can see the pull request and the changes made. </li>
+<li>Owner can review the changes and accept the changes. They will click on review changes and leaves a feedback.</li>
+<li>They can accept the request, reject the request and/or request changes in the request.</li>
+</ol>
 
 
 
