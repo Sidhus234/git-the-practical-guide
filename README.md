@@ -21,20 +21,21 @@ Git is local and hence we can't collaborate with others. Github is where compani
 
 <h2><a id="index">Index</a></h2>
 
-[1. Command Line](#commandline)
-[2. Windows Command Prompt Basics](#windowscommandprompt)
-[3. Git Version Management](#versionmanagement)
-[4. Branches](#branches)
-[5. Head](#head) 
-[6. .gitignore](#gitignore)
-[7. Git Stash](#gitstash)
-[8. Git Reflog](#gitreflog)
-[9. Combining Main and Feature Branches](#combiningbranches)
-[10. Rebase](#gitrebase)
-[11. Handling Merge Conflicts](#mergeconflicts)
-[12. Merge - Rebase - Cherry Picking](#mergerebasecherrypick)
-[13. Git Tags](#gittags)
-[14. Github Basics](#githubbasics)
+[1. Command Line](#commandline)<br>
+[2. Windows Command Prompt Basics](#windowscommandprompt)<br>
+[3. Git Version Management](#versionmanagement)<br>
+[4. Branches](#branches)<br>
+[5. Head](#head)<br>
+[6. .gitignore](#gitignore)<br>
+[7. Git Stash](#gitstash)<br>
+[8. Git Reflog](#gitreflog)<br>
+[9. Combining Main and Feature Branches](#combiningbranches)<br>
+[10. Rebase](#gitrebase)<br>
+[11. Handling Merge Conflicts](#mergeconflicts)<br>
+[12. Merge - Rebase - Cherry Picking](#mergerebasecherrypick)<br>
+[13. Git Tags](#gittags)<br>
+[14. Github Basics](#githubbasics)<br>
+[15. Git Clone](#gitclone)<br>
 
 <h2><a id="commandline">1. Command Line</a></h2>
 
@@ -203,7 +204,49 @@ Types of branches:
 
 <h3><a id="143">14.3 Github Security</a></h3>
 
+Personal access token gives us access to Github via git. If a wrong person can get access to your github token, they also get access to your Github and can commit/make changes to your repo. To collaborate with users on different projects, we have owner access and collaborator access. To allow other people to contribute to your public repositary:
+
+<ol>
+<li>Go to a specific repo, and click on setting. Click on Collaborators and this will show who can contribute to the current repo. By default only the owner of the repo is able to contribute to the repo.</li>
+<li>Click on Manage Access and invite a user by username, full name or email. </li>
+<li>Github will then send an invite to the user. And once they accept that, they will also get push access to the repo.</li>
+<li>The added user can create his own personal token. Since, the user has access to this repo (And his/her own repos), they will be able to push changes using their own personal token.</li>
+</ol>
+
+Collaborating to private repo works in the same way as public repo. Once we add a collaborator to a repo, it doesn't make difference if it is public and private repo.
+
+Rights of Collaborators can be found [here](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-personal-account-settings/permission-levels-for-a-personal-account-repository). 
+
 <img src="./Images/15_security.png" alt="Github Security"/>
+
+To allow limited access to a repo, follow the steps:
+
+<ol>
+<li>Go to Github Settings and click on 'Moderation' in the right hand side.</li>
+<li>Here we have options to block a user, add interaction limits and add code review limits.</li>
+</ol>
+
+To make limited access changes to a repo, go to 'settings' of the repo and select the moderation settings. It works in similar way as for whole github profile.
+
+<h2><a id="gitclone">15. Git Clone and Fork</a></h2>
+
+Clone allows us to create a copy of public repo to our own account. This only works well when both accounts are for the same person, as there are no checks/balances on pushing new code to a cloned repo.
+
+Fork works like this. Lets say there is a public repo (User A) on Github. We (User B) create a fork of the repo and thus end up creating a remote repo on (User B) Github.
+
+<ol>
+<li>User B then clones the remote repo to his local device.</li>
+<li>User B works on local repo and make some changes.</li>
+<li>User B pushes those local changes to remote repo(of User B).</li>
+<li>Then User B creates a pull request, which means he asks User A to review his code and add it to the main public repo.</li>
+<li>User A then reviews the changes and accepts the pull requests.</li>
+<li>Then the changes are merged into remote repo.</li>
+</ol>
+
+<img src="./Images/16_git_clone.png" alt="Github Clone"/>
+
+<img src="./Images/17_fork.png" alt="Github Fork"/>
+
 
 
 
