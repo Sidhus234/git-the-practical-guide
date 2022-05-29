@@ -36,6 +36,7 @@ Git is local and hence we can't collaborate with others. Github is where compani
 [13. Git Tags](#gittags)<br>
 [14. Github Basics](#githubbasics)<br>
 [15. Git Clone](#gitclone)<br>
+[16. Github Projects](#githubprojects)<br>
 
 <h2><a id="commandline">1. Command Line</a></h2>
 
@@ -258,6 +259,8 @@ To fork a repository, just go to a public repository and click on fork. Select t
 <li>They can accept the request, reject the request and/or request changes in the request.</li>
 </ol>
 
+<h2><a id="githubprojects">16. Github Projects</a></h2>
 
+Issues can be added to projects. A single repo can have multiple projects. We can also select kanban board to track progress of the project. The updating of kanban board can also be automated.
 
-<h2><a id=""></a></h2>
+Github stars - are likes in the world of instagram/facebook. Stars usually gives popularity of the repo.
