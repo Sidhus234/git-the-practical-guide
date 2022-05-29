@@ -185,9 +185,9 @@ Types of branches:
 </ol></li>
 </ol>
 
-[14.1 Local and Remote Branches are Connected as:](#141)
-[14.2 Clone a Repository](#142)
-[14.3 Github Security](#143)
+[14.1 Local and Remote Branches are Connected as:](#141)<br>
+[14.2 Clone a Repository](#142)<br>
+[14.3 Github Security](#143)<br>
 
 <img src="./Images/11_remotes_tracking_branch.png" alt="Remote Tracking Branch"/>
 
