@@ -57,7 +57,4 @@
 <li><i>git branch --delete -remotes origin/{branchname}</i>: This will delete the remote branch (but only locally).</li>
 <li><i>git push origin --delete {branchname}</i>: This will delete the branch on Github.</li>
 <li><i>git branch -r</i>: Lists out all the remote branches.</li>
-<li><i></i>: </li>
-<li><i></i>: </li>
-<li><i></i>: </li>
 </ol>
